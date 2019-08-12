@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: sans-serif, Arial, Helvetica;
+    list-style: none;
+}
+.contenedor-filas-columnas{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+/*Columna de posición del header*/
+.caja-header {
+    float: left;
+    width: 100%;
+}
+.imagen-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+}
+.titulo-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.h1-header {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 3% 0%;
+    width: 100%;
+}
+/*Menu*/
+.columna-nav{
+    float: left;
+    width: 100%;
+    background: rgb(100, 224, 224);
+    padding-right: 10%;
+    padding-left: 10% 
+}
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+.menu li:hover{
+    background: rgba(5, 5, 5, 0.3) 
+}
+.menu li a{
+    display: block;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*Formulario buscar */
+.input-100 {
+    width: 70%;
+    margin: 1% 1%;
+    padding: 2%;
+}
+.boton_aceptar {
+    background: rgb(61, 58, 58);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%;
+}
+/*Menu vertical*/
+.menu ul {
+    flex-direction: column;
+}
+/*Mapa*/
+.columnamapa{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.mapa ul li {
+    display: inline;
+}
+.amapa{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1%;
+}
+/*Principal 1*/
+.principal1{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+.h2_titulo_principal{
+    padding: 5% 0%;
+    text-align: center;
+    font-size: 26px;
+}
+.escuela{
+    padding: 5% 0%;
+    width: 100%;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.imagen_portada{
+    width: 100%;
+    height: 100%;
+}
+.editorial{
+    width: 100%;
+    float: left;
+}
+.particle{
+    font-size: 19px;
+    padding: 1%;
+}
+.particle_creditos{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    white-space: normal;
+	white-space: pre-wrap;
+}
+.h2_escuela_sabatica{
+    width: 100%;
+    float: left;
+    padding: 3%;
+    padding-top: 0%;
+    text-align: center;
+    font-size: 24px;
+    white-space: pre-wrap;
+}
+.particle{
+    font-size: 18px;
+    padding: 1%;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.boton_entrar a{
+    color: black;
+}
+/*Principal*/
+.principal1{
+    width: 100%;
+    float: left;
+    margin:auto;
+    border-bottom: 1px solid rgb(61, 58, 58);
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.editorial{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.boton_entrar{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(100, 224, 224);
+    border-width: 5px;
+    border-color: rgb(61, 58, 58);
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+/*Footer*/
+.columna-footer {
+	background: rgb(61, 58, 58);
+	float: left;
+	text-align: center;
+	padding: 3%;
+	width: 100%;
+	border-top: solid aqua;
+}
+.a-footer {
+	color: #fff;
+	font-size: 17px;
+}
+.link-footer {
+	color: #fff;
+	font-size: 17px;
+}
+.pfooter {
+	color: #fff;
+	font-size: 23px;
+	padding: 5% 0% 0% 0%;
+}
+
+@media (min-width: 768px) {
+   /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+   }
+    .imagen-header {
+        float: left;
+        padding-left: 10%;
+        width: 30%;
+   }
+    .logo {
+        width: 100%;
+   }
+    .titulo-header {
+        float: left;
+        padding-right: 10%;
+        width: 70%;
+   }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        width: 100%;
+   }
+   /*Menu*/
+    .columna-nav{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+        padding-right: 10%;
+        padding-left: 10% 
+   }
+    .menu{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        display:block;
+   }
+    .menu ul {
+        list-style: none;
+        display: flex;
+   }
+    .menu li {
+        text-align: center;
+        flex-grow: 1;
+   }
+    .menu li:hover{
+        background: rgba(5, 5, 5, 0.3) 
+   }
+    .menu li a{
+        display: block;
+        padding: 0%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+   }
+    h3{
+        font-size: 14px;
+   }
+   /*Formulario buscar */
+    .input-100 {
+        width: 65%;
+        padding: 1%;
+   }
+    .boton_aceptar {
+        background: rgb(61, 58, 58);
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 1%;
+   }
+   /*Menu vertical*/
+    .menu ul {
+        flex-direction: row;
+   }
+   /*Mapa*/
+    .columnamapa{
+        float: left;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10% 
+   }
+    .mapa {
+        padding-left: 5px;
+   }
+    .mapa ul {
+        margin: 0;
+        padding: 0;
+        display: inline;
+   }
+    .mapa ul li {
+        list-style: none;
+        display: inline;
+   }
+    .amapa{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 1%;
+   }
+   /*Principal 1*/
+    .h2_titulo_principal{
+        text-align: center;
+        padding: 2%;
+        font-size: 28px;
+   }
+    .principal1{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        padding: 0%;
+   }
+    .escuela{
+        padding: 5% 0%;
+        width: 100%;
+   }
+    .imagen{
+        width: 100%;
+        height: 100%;
+        float: left;
+        text-align: center;
+   }
+    .imagen_portada{
+        width: 50%;
+        height: 50%;
+   }
+    .editorial{
+        width: 100%;
+        float: left;
+   }
+    .particle{
+        font-size: 19px;
+        padding: 1%;
+   }
+    .h2_escuela_sabatica{
+        width: 100%;
+        float: left;
+        padding: 3%;
+        padding-top: 0%;
+        text-align: center;
+        font-size: 24px;
+        white-space: pre-wrap;
+   }
+    .particle{
+        font-size: 18px;
+        padding: 1%;
+        white-space: pre-wrap;
+   }
+    .boton_entrar{
+        width: 50%;
+        font-size: 25px;
+        font-weight: bold;
+        background: rgb(100, 224, 224);
+        border-width: 5px;
+        border-color: rgb(61, 58, 58);
+        cursor: pointer;
+        margin-left: 0%;
+   }
+    .boton_entrar a{
+        color: black;
+   }
+   /*Footer*/
+	.columna-footer {
+		background: rgb(61, 58, 58);
+		width: 100%;
+		float: left;
+		padding: 5% 10% 2% 10%;
+		text-align: center;
+	}
+	.ul-footer {
+		float: left;
+		width: 40%;
+		text-align: left;
+		
+	}
+	.a-footer {
+		color: #fff;
+		text-align: left;
+		padding: 1% 0%;
+		font-size: 18px;
+	}
+	.pfooter-1 {
+		float: left;
+		width: 60%;
+		text-align: right;
+	}
+	.link-footer {
+		color: #fff;
+		font-size: 18px;
+	}
+	
+	.pfooter {
+		color: #fff;
+		font-size: 22px;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+   }
+
+}
+@media (min-width: 1024px) {
+   /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+   }
+    .imagen-header {
+        float: left;
+        padding-left: 10%;
+        width: 30%;
+   }
+    .logo {
+        width: 100%;
+   }
+    .titulo-header {
+        float: left;
+        padding-right: 10%;
+        width: 70%;
+   }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 24px;
+        width: 100%;
+   }
+   h3{
+       font-size: 18px
+   }
+   .columnamapa{
+       text-align: left;
+   }
+   /*Principal 1*/
+    .h2_titulo_principal{
+        text-align: center;
+        padding: 2%;
+        font-size: 28px;
+   }
+    .principal1{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        padding: 0%;
+   }
+    .escuela{
+        padding: 5% 0%;
+        width: 100%;
+   }
+    .imagen{
+        width: 35%;
+        height: 100%;
+        float: left;
+        text-align: center;
+   }
+    .imagen_portada{
+        width: 100%;
+        height: 50%;
+        padding-bottom: 10%;
+   }
+    .editorial{
+        width: 65%;
+        float: left;
+   }
+    .particle{
+        font-size: 19px;
+        padding: 1%;
+   }
+    .h2_escuela_sabatica{
+        width: 100%;
+        float: left;
+        padding: 3%;
+        padding-top: 0%;
+        text-align: center;
+        font-size: 24px;
+        white-space: pre-wrap;
+   }
+    .particle{
+        font-size: 18px;
+        padding: 1%;
+        white-space: pre-wrap;
+   }
+    .boton_entrar{
+        width: 50%;
+        font-size: 25px;
+        font-weight: bold;
+        background: rgb(100, 224, 224);
+        border-width: 5px;
+        border-color: rgb(61, 58, 58);
+        cursor: pointer;
+        margin-left: 0%;
+   }
+    .boton_entrar a{
+        color: black;
+   }
+   /*Footer*/
+	.columna-footer {
+		background: rgb(61, 58, 58);
+		width: 100%;
+		float: left;
+		padding: 2% 10%;
+		text-align: center;
+		border-top: solid aqua;
+	}
+	.ul-footer {
+		float: left;
+		width: 40%;
+		text-align: left;
+	}
+	.a-footer {
+		color: #fff;
+		text-align: left;
+		padding: 1% 0%;
+		font-size: 27px;
+	}
+	.pfooter-1 {
+		float: left;
+		width: 60%;
+		text-align: right;
+	}
+	.link-footer {
+		color: #fff;
+		font-size: 27px;
+	}
+	.pfooter {
+		color: #fff;
+		font-size: 29px;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+		padding: 5% 0% 0% 5%;
+   }
+
+}

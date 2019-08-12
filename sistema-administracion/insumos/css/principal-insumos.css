@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: sans-serif, Arial, Helvetica;
+    list-style: none;
+}
+.contenedor-filas-columnas{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+/*Columna de posición del header*/
+.caja-header {
+    float: left;
+    width: 100%;
+}
+.imagen-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+}
+.titulo-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.h1-header {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 3% 0%;
+    width: 100%;
+}
+/*Menu*/
+.columna-nav{
+    float: left;
+    width: 100%;
+    background: rgb(100, 224, 224);
+    padding-right: 10%;
+    padding-left: 10% 
+}
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+.menu li:hover{
+    background: rgba(5, 5, 5, 0.3) 
+}
+.menu li a{
+    display: block;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*Formulario buscar */
+.input-100 {
+    width: 70%;
+    margin: 1% 1%;
+    padding: 2%;
+}
+.boton_aceptar {
+    background: rgb(61, 58, 58);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%;
+}
+/*Menu vertical*/
+.menu ul {
+    flex-direction: column;
+}
+/*Mapa*/
+.columnamapa{
+    float: left;
+    width: 100%;
+}
+.mapa {
+}
+.mapa ul {
+}
+.mapa ul li {
+    display: inline;
+}
+.amapa{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1%;
+}
+.boton_regresar{
+    float: left;
+    width: 100%;
+    padding: 0% 5%;
+  }
+.span_pregunta{
+    float: left;
+    padding: 1%;
+    width: 24%;
+    border: 2px rgb(100, 224, 224) solid;
+    background: rgb(61, 58, 58);
+    cursor: pointer;
+    font-size: 12px;
+    margin: 1% .5%;
+    color: white;
+    font-weight: bold;
+  }
+/*Bloque de articles*/
+.caja-articles {
+    float: left;
+    width: 100%;
+}
+.columna-article {
+    float: left;
+    padding: 1% 1%;
+    width: 100%;
+    border-right: 1px solid rgb(61, 58, 58);
+    border-left: 1px solid rgb(61, 58, 58);
+    margin-bottom: 1%;
+}
+.info__columna {
+    width: 100%;
+}
+.imagen-article {
+    width: 100%;
+}
+.h3-article {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+.info__txt {
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+.boton-article {
+    background-color: rgb(61, 58, 58);
+    border-color: rgb(100, 224, 224);
+    border-width: 3%;
+    border-style: solid;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 3%;
+    text-decoration: none;
+    width: 100%;
+}
+/*Footer*/
+.columna-footer {
+    background: rgb(61, 58, 58);
+    float: left;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    border-top: solid aqua;
+}
+.a-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.link-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.pfooter {
+    color: #fff;
+    font-size: 23px;
+    padding: 5% 0% 0% 0%;
+}
+@media (min-width: 768px) {
+   /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+   }
+    .imagen-header {
+        float: left;
+        padding-left: 10%;
+        width: 30%;
+   }
+    .logo {
+        width: 100%;
+   }
+    .titulo-header {
+        float: left;
+        padding-right: 10%;
+        width: 70%;
+   }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        width: 100%;
+   }
+   /*Menu*/
+    .columna-nav{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+        padding-right: 10%;
+        padding-left: 10% 
+   }
+    .menu{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        display:block;
+   }
+    .menu ul {
+        list-style: none;
+        display: flex;
+   }
+    .menu li {
+        text-align: center;
+        flex-grow: 1;
+   }
+    .menu li:hover{
+        background: rgba(5, 5, 5, 0.3) 
+   }
+    .menu li a{
+        display: block;
+        padding: 0%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+   }
+    h3{
+        font-size: 16px;
+   }
+   /*Formulario buscar */
+    .input-100 {
+        width: 65%;
+        padding: 1%;
+   }
+    .boton_aceptar {
+        background: rgb(61, 58, 58);
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 1%;
+   }
+   /*Menu vertical*/
+    .menu ul {
+        flex-direction: row;
+   }
+   /*Mapa*/
+    .columnamapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+   }
+    .mapa {
+        padding-left: 5px;
+   }
+    .mapa ul {
+        margin: 0;
+        padding: 0;
+        display: inline;
+   }
+    .mapa ul li {
+        list-style: none;
+        display: inline;
+   }
+    .amapa{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 1%;
+   }
+   .boton_regresar{
+    float: left;
+    width: 100%;
+    padding: 0% 10%;
+  }
+  .span_pregunta{
+    float: left;
+    padding: 0.5%;
+    width: 24%;
+    border: 2px rgb(100, 224, 224) solid;
+    background: rgb(61, 58, 58);
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0.5% .5%;
+    color: white;
+    font-weight: bold;
+  }
+   /*Bloque de articles*/
+    .caja-articles {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 0% 10%;
+   }
+    .columna-article {
+        float: left;
+        width: 50%;
+        padding: 0% 1%;
+   }
+    .info__columna {
+        width: 100%;
+   }
+    .imagen-article {
+        width: 100%;
+   }
+    .h3-article {
+        text-align: center;
+        width: 100%;
+        height: 30px;
+   }
+    .info__txt {
+        text-align: center;
+        width: 100%;
+        height: 50px;
+   }
+    .boton-article {
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 100%;
+        color: #ffffff;
+        padding: 3%;
+        background-color: rgb(61, 58, 58);
+        border-color: rgb(100, 224, 224);
+        border-width: 3%;
+        border-style: solid;
+        cursor: pointer;
+        margin-bottom: 50px;
+   }
+   /*Footer*/
+   .columna-footer {
+    background: rgb(61, 58, 58);
+    width: 100%;
+    float: left;
+    padding: 5% 10% 2% 10%;
+    text-align: center;
+}
+.ul-footer {
+    float: left;
+    width: 40%;
+    text-align: left;
+    
+}
+.a-footer {
+    color: #fff;
+    text-align: left;
+    padding: 1% 0%;
+    font-size: 18px;
+}
+.pfooter-1 {
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+.link-footer {
+    color: #fff;
+    font-size: 18px;
+}
+
+.pfooter {
+    color: #fff;
+    font-size: 22px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+}
+@media (min-width: 1024px) {
+   /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+   }
+    .imagen-header {
+        float: left;
+        padding-left: 10%;
+        width: 30%;
+   }
+    .logo {
+        width: 100%;
+   }
+    .titulo-header {
+        float: left;
+        padding-right: 10%;
+        width: 70%;
+   }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 24px;
+        width: 100%;
+   }
+   /*Menu*/
+    .columna-nav{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+        padding-right: 10%;
+        padding-left: 10% 
+   }
+    .menu{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        display:block;
+   }
+    .menu ul {
+        list-style: none;
+        display: flex;
+   }
+    .menu li {
+        text-align: center;
+        flex-grow: 1;
+   }
+    .menu li:hover{
+        background: rgba(5, 5, 5, 0.3) 
+   }
+    .menu li a{
+        display: block;
+        padding: 1%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+   }
+    .h3menu{
+        font-size: 15px;
+   }
+   .span_pregunta{
+    float: left;
+    padding: 0.5%;
+    width: 24%;
+    border: 2px rgb(100, 224, 224) solid;
+    background: rgb(61, 58, 58);
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+   /*Formulario buscar */
+    .input-100 {
+        width: 60%;
+        margin: 1% 1%;
+        padding: 2%;
+   }
+    .boton_aceptar {
+        background: rgb(61, 58, 58);
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 1%;
+   }
+   /*Menu vertical*/
+    .menu ul {
+        flex-direction: row;
+   }
+   /*Bloque de articles*/
+    .caja-articles {
+        width: 100%;
+        float: left;
+        padding: 2% 10%;
+        padding-bottom: 0%;
+   }
+    .columna-article {
+        float: left;
+        width: 25%;
+   }
+    .info__columna {
+        width: 100%;
+   }
+    .imagen-article {
+        width: 100%;
+   }
+    .h3-article {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        height: 60px;
+   }
+    .info__txt {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        height: 60px;
+   }
+    .boton-article {
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 100%;
+        color: #ffffff;
+        padding: 3%;
+        background-color: rgb(61, 58, 58);
+        border-color: rgb(100, 224, 224);
+        border-width: 3%;
+        border-style: solid;
+        cursor: pointer;
+   }
+   /*Footer*/
+   .columna-footer {
+    background: rgb(61, 58, 58);
+    width: 100%;
+    float: left;
+    padding: 2% 10%;
+    text-align: center;
+    border-top: solid aqua;
+}
+.ul-footer {
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.a-footer {
+    color: #fff;
+    text-align: left;
+    padding: 1% 0%;
+    font-size: 24px;
+}
+.pfooter-1 {
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+.link-footer {
+    color: #fff;
+    font-size: 24px;
+}
+.pfooter {
+    color: #fff;
+    font-size: 26px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    padding: 5% 0% 0% 5%;
+}
+}

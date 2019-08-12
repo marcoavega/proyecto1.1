@@ -1,0 +1,1684 @@
+/*Estiloa para todo*/
+*{
+    font-family:  Verdana, Geneva, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.contenedor-filas-columnas {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+/*
+  #Dispositivo = Mayoria de the Smartphones Mobiles (Portrait)
+  #Tamaño = 320px to 479px
+*/
+@media (max-width: 575px) {
+    /*Header con logo título y formulario*/
+    .nav-header{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+    }
+    .div-imagen-header{
+        float: left;
+        width: 60%;
+        margin: auto 20%;
+    }
+    .imagen-header{
+        float: left;
+        width: 100%;
+    }
+    .div-h1-header{
+        float: left;
+        width: 100%;
+    }
+    .h1-header{
+        color: rgb(255,255,255);
+        font-size: 22px;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .div-form{
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+    }
+    .h1-form{
+        float: left;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    .form{
+        float: left;
+        width: 100%;
+    }
+    .input-nombre, .input-contrasena, .input-captcha {
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1.5%;
+        padding: 2%;
+        width: 97%;
+    }
+    .input-captcha-oculto{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1.5%;
+        padding: 2%;
+        width: 97%;
+        display: none;
+    }
+    .imagen-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1.5%;
+        width: 97%;
+    }
+    .boton-form{
+        border-radius: 5px;
+        float: left;
+        margin: auto 5% 1%;
+        width: 90%;
+        padding: 4%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(255,255,255);
+    }
+    .boton:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .error-form{
+        background: rgb(100, 224, 224);
+        color: red;
+        font-weight: bold;
+        float: left;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .h3-registro{
+        background: rgb(100, 224, 224);
+        font-weight: bold;
+        float: left;
+        padding: 2%;
+        text-align: center;
+        width: 100%;
+    }
+    .a-registro{
+        color: rgb(255,255,255);
+        text-decoration:none; 
+    }
+    /* Slideshow container */
+    .div-slider{
+        float:left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Ocultar kas imagenes por defecto*/
+    .mySlides {
+        display: none;
+    }
+    /* Next y previous botones */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* posicisión del "next button" a la derecha */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    /*Al pasar el mouse, agregue un color de fondo negro con un poco de transparencia*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* texto de subtítulo */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Número texxo (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Puntos/balas/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animación */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+        padding: 0% 10%;
+    }
+    .h2-avisos{
+        font-size:5vw;
+        text-align: center;
+    }
+    .div-tarjetas{
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+    .tarjeta{
+        float: left;
+        width: 100%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-imagen-tarjeta{
+        float: left;
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .imagen-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .h3-tarjeta{
+        text-align: center;
+        padding: 3% 4%;
+        width: 100%;
+    }
+    .div-boton-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .boton-tarjeta{
+        border-radius: 5px;
+        float: left;
+        margin: auto 25% 7%;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .botontarjeta {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(100, 224, 224);
+    }
+    .botontarjeta:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .seccion-videos{
+        text-align: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .tarjeta-video{
+        float: left;
+        width: 100%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-iframe{
+        float: left;
+        width: 100%;
+        padding: 2% 10%;
+    }
+    .iframe{
+        height: 200px;
+        float: left;
+        width: 100%;
+    }
+    .div-mapa{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+    }
+    .iframe-mapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .mapa-google{
+        border-radius: 5px;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .direccion{
+        padding: 1% 10%;
+    }
+    .div-footer{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+
+        padding: 1% 0%;
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+    .h4-footer{
+        color: rgb(255,255,255);
+        padding: 1% 0%;
+    }
+}/*@media (min-width: 320px) and (max-width: 480px)*/
+/* 
+  #Dispositivo = Baja Resolución Tabletas, Mobiles.
+  #Pantalla =  481px a 767px
+*/
+@media (min-width: 576px) and (max-width: 767px) {
+    /*Header con logo título y formulario*/
+    .nav-header{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+    }
+    .div-imagen-header{
+        float: left;
+        width: 60%;
+        margin: auto 20%;
+    }
+    .imagen-header{
+        float: left;
+        width: 100%;
+    }
+    .div-h1-header{
+        float: left;
+        width: 100%;
+    }
+    .h1-header{
+        font-size: 26px;
+        color: rgb(255,255,255);
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .div-form{
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+    }
+    .h1-form{
+        float: left;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    .form{
+        float: left;
+        width: 100%;
+    }
+    .input-nombre, .input-contrasena, .input-captcha {
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: 2%;
+        width: 98%;
+    }
+    .input-captcha-oculto{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: 2%;
+        width: 98%;
+        display: none;
+    }
+    .imagen-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        width: 98%;
+    }
+    .boton-form{
+        border-radius: 5px;
+        float: left;
+        margin: auto 5% 1%;
+        width: 90%;
+        padding: 4%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(255,255,255);
+    }
+    .boton:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .error-form{
+        background: rgb(100, 224, 224);
+        color: red;
+        font-weight: bold;
+        float: left;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .h3-registro{
+        background: rgb(100, 224, 224);
+        font-weight: bold;
+        float: left;
+        padding: 2%;
+        text-align: center;
+        width: 100%;
+    }
+    .a-registro{
+        color: rgb(255,255,255);
+        text-decoration:none; 
+    }
+    /* Slideshow container */
+    .div-slider{
+        float:left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Ocultar kas imagenes por defecto*/
+    .mySlides {
+        display: none;
+    }
+    /* Next y previous botones */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* posicisión del "next button" a la derecha */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    /*Al pasar el mouse, agregue un color de fondo negro con un poco de transparencia*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* texto de subtítulo */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Número texxo (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Puntos/balas/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animación */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+        padding: 0% 10%;
+    }
+    .h2-avisos{
+        font-size:4vw;
+        text-align: center;
+    }
+    .div-tarjetas{
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+    .tarjeta{
+        float: left;
+        width: 100%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-imagen-tarjeta{
+        float: left;
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .imagen-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .h3-tarjeta{
+        text-align: center;
+        padding: 3% 4%;
+        width: 100%;
+    }
+    .div-boton-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .boton-tarjeta{
+        border-radius: 5px;
+        float: left;
+        margin: auto 25% 7%;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .botontarjeta {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(100, 224, 224);
+    }
+    .botontarjeta:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .seccion-videos{
+        text-align: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .tarjeta-video{
+        float: left;
+        width: 100%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-iframe{
+        float: left;
+        width: 100%;
+        padding: 2% 10%;
+    }
+    .iframe{
+        height: 300px;
+        float: left;
+        width: 100%;
+    }
+    .div-mapa{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+    }
+    .iframe-mapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .mapa-google{
+        border-radius: 5px;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .direccion{
+        padding: 1% 10%;
+    }
+    .div-footer{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+
+        padding: 1% 0%;
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+    .h4-footer{
+        color: rgb(255,255,255);
+        padding: 1% 0%;
+    }
+}/*@media (min-width: 481px) and (max-width: 767px)*/
+/* 
+  #Dispositivos = Tablets, Ipads
+  #Pantallas = 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /*Header con logo título y formulario*/
+    .nav-header{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+    }
+    .div-imagen-header{
+        float: left;
+        width: 25%;
+    }
+    .imagen-header{
+        float: left;
+        width: 70%;
+    }
+    .div-h1-header{
+        float: left;
+        width: 75%;
+    }
+    .h1-header{
+        font-size: 22px;
+        color: rgb(255,255,255);
+        float: left;
+        text-align: right;
+        width: 100%;
+    }
+    .div-form{
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+    }
+    .h1-form{
+        float: left;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    .form{
+        float: left;
+        width: 100%;
+    }
+    .input-nombre, .input-contrasena,.input-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: 1%;
+        width: 48%;
+    }
+    .input-captcha-oculto{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: 1%;
+        width: 48%;
+        visibility: hidden;
+    }
+    .imagen-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        margin: 1%;
+        width: 48%;
+    }
+    .boton-form{
+        border-radius: 5px;
+        float: left;
+        margin: 1%;
+        width: 48%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(255,255,255);
+    }
+    .boton:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .error-form{
+        background: rgb(100, 224, 224);
+        color: red;
+        font-weight: bold;
+        float: left;
+        font-size: 20px;
+        padding: 0% 1%;
+        text-align: right;
+        width: 100%;
+    }
+    .h3-registro{
+        background: rgb(100, 224, 224);
+        font-weight: bold;
+        float: left;
+        padding: 2%;
+        text-align: left;
+        width: 100%;
+    }
+    .a-registro{
+        color: rgb(255,255,255);
+        text-decoration:none; 
+    }
+    /* Slideshow container */
+    .div-slider{
+        float:left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Ocultar kas imagenes por defecto*/
+    .mySlides {
+        display: none;
+    }
+    /* Next y previous botones */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* posicisión del "next button" a la derecha */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    /*Al pasar el mouse, agregue un color de fondo negro con un poco de transparencia*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* texto de subtítulo */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Número texxo (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Puntos/balas/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animación */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .h2-avisos{
+        font-size:4vw;
+        text-align: center;
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+    }
+    .h2-avisos{
+        font-size:3vw;
+        text-align: center;
+    }
+    .div-tarjetas{
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+    .tarjeta{
+        float: left;
+        width: 33.33%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-imagen-tarjeta{
+        float: left;
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .imagen-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .h3-tarjeta{
+        height: 350px;
+        text-align: center;
+        padding: 3% 4%;
+        width: 100%;
+    }
+    .div-boton-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .boton-tarjeta{
+        border-radius: 5px;
+        float: left;
+        margin: auto 25% 7%;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .botontarjeta {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(100, 224, 224);
+    }
+    .botontarjeta:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .seccion-videos{
+        text-align: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .tarjeta-video{
+        float: left;
+        width: 50%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-iframe{
+        float: left;
+        width: 100%;
+        padding: 2% 10%;
+    }
+    .iframe{
+        height: 200px;
+        float: left;
+        width: 100%;
+    }
+    .div-mapa{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+    }
+    .iframe-mapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .mapa-google{
+        border-radius: 5px;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .direccion{
+        padding: 1% 10%;
+    }
+    .div-footer{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+        padding: 1% 0%;
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+    .h4-footer{
+        color: rgb(255,255,255);
+        padding: 1% 0%;
+    }
+    .div-footer-1{
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .div-footer-2{
+        float: left;
+        text-align: left;
+        width: 30%;
+    }
+    .div-footer-3{
+        float: left;
+        text-align: right;
+        width: 70%;
+    }
+}/*@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)*/
+/* 
+  #dispositivos = Laptops, Desktops
+  #Pantallas = 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /*Header con logo título y formulario*/
+    .nav-header{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+    }
+    .div-imagen-header{
+        float: left;
+        width: 25%;
+    }
+    .imagen-header{
+        float: left;
+        width: 60%;
+    }
+    .div-h1-header{
+        float: left;
+        width: 75%;
+    }
+    .h1-header{
+        font-size: 22px;
+        color: rgb(255,255,255);
+        float: left;
+        text-align: right;
+        width: 100%;
+    }
+    .div-form{
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+    }
+    .h1-form{
+        float: left;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 1%;
+        width: 100%;
+    }
+    .form{
+        float: left;
+        width: 100%;
+    }
+    .input-nombre,.input-contrasena,.input-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 16px;
+        margin: .5%;
+        padding: .5%;
+        width: 24%;
+    }
+    .input-captcha-oculto{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: .5%;
+        width: 48%;
+        display: none;
+    }
+    .imagen-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        padding: 0%;
+        margin: .5%;
+        width: 24%;
+    }
+    .boton-form{
+        border-radius: 5px;
+        float: left;
+        margin: .5%;
+        width: 24%;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(255,255,255);
+    }
+    .boton:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .div-error-form{
+        background: rgb(100, 224, 224);
+        color: red;
+        font-weight: bold;
+        float: left;
+        font-size: 18px;
+        padding: 1.5% 0%;
+        text-align: left;
+        width: 30%;
+    }
+    .h3-registro{
+        background: rgb(100, 224, 224);
+        font-weight: bold;
+        float: left;
+        padding: 1.5% .5%;
+        text-align: right;
+        width: 70%;
+    }
+    .a-registro{
+        color: rgb(255,255,255);
+        text-decoration:none;
+    }
+    /* Slideshow container */
+    .div-slider{
+        float:left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Ocultar kas imagenes por defecto*/
+    .mySlides {
+        display: none;
+    }
+    /* Next y previous botones */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* posicisión del "next button" a la derecha */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    /*Al pasar el mouse, agregue un color de fondo negro con un poco de transparencia*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* texto de subtítulo */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Número texxo (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Puntos/balas/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animación */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .h2-avisos{
+        font-size:3vw;
+        text-align: center;
+    }
+    .div-tarjetas{
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+    .tarjeta{
+        float: left;
+        width: 33.33%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-imagen-tarjeta{
+        float: left;
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .imagen-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .h3-tarjeta{
+        height: 350px;
+        text-align: center;
+        padding: 3% 4%;
+        width: 100%;
+    }
+    .div-boton-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .boton-tarjeta{
+        border-radius: 5px;
+        float: left;
+        margin: auto 25% 7%;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .botontarjeta {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(100, 224, 224);
+    }
+    .botontarjeta:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .seccion-videos{
+        text-align: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .tarjeta-video{
+        float: left;
+        width: 25%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-iframe{
+        float: left;
+        width: 100%;
+        padding: 2% 5%;
+    }
+    .iframe{
+        height: 150px;
+        float: left;
+        width: 100%;
+    }
+    .div-mapa{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+    }
+    .iframe-mapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .mapa-google{
+        border-radius: 5px;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .direccion{
+        padding: 1% 10%;
+    }
+    .div-footer{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+        padding: 1% 0%;
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+    .h4-footer{
+        color: rgb(255,255,255);
+        padding: 1% 0%;
+    }
+    .div-footer-1{
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .div-footer-2{
+        float: left;
+        text-align: left;
+        width: 30%;
+    }
+    .div-footer-3{
+        float: left;
+        text-align: right;
+        width: 70%;
+    }
+}/*@media (min-width: 1025px) and (max-width: 1200px)*/
+/* 
+  #Dispositivo = Desktops
+  #pantallas = 1281px to higher resolution desktops
+*/
+@media (min-width: 1201px) {
+    /*Header con logo título y formulario*/
+    .nav-header{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+    }
+    .div-imagen-header{
+        float: left;
+        width: 25%;
+    }
+    .imagen-header{
+        float: left;
+        width: 40%;
+    }
+    .div-h1-header{
+        float: left;
+        width: 75%;
+    }
+    .h1-header{
+        font-size: 22px;
+        color: rgb(255,255,255);
+        float: left;
+        text-align: right;
+        width: 100%;
+    }
+    .div-form{
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+    }
+    .h1-form{
+        float: left;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 1%;
+        width: 100%;
+    }
+    .form{
+        float: left;
+        width: 100%;
+    }
+    .input-nombre,.input-contrasena,.input-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 16px;
+        margin: .5%;
+        padding: .5%;
+        width: 19%;
+    }
+    .input-captcha-oculto{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        font-size: 20px;
+        margin: 1%;
+        padding: .5%;
+        width: 48%;
+        display: none;
+    }
+    .imagen-captcha{
+        border-radius: 5px;
+        border: 0;
+        float: left;
+        padding: 0%;
+        margin: .5%;
+        width: 19%;
+    }
+    .boton-form{
+        border-radius: 5px;
+        float: left;
+        margin: .5%;
+        width: 19%;
+        padding: .5%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .boton {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(255,255,255);
+    }
+    .boton:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .div-error-form{
+        background: rgb(100, 224, 224);
+        color: red;
+        font-weight: bold;
+        float: left;
+        font-size: 18px;
+        padding: 1.5% 0%;
+        text-align: left;
+        width: 25%;
+    }
+    .h3-registro{
+        background: rgb(100, 224, 224);
+        font-weight: bold;
+        float: left;
+        padding: 1.5% .5%;
+        text-align: right;
+        width: 75%;
+    }
+    .a-registro{
+        color: rgb(255,255,255);
+        text-decoration:none;
+    }
+    /* Slideshow container */
+    .div-slider{
+        float:left;
+        padding: 1% 10%;
+        width: 100%;
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Ocultar kas imagenes por defecto*/
+    .mySlides {
+        display: none;
+    }
+    /* Next y previous botones */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* posicisión del "next button" a la derecha */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    /*Al pasar el mouse, agregue un color de fondo negro con un poco de transparencia*/
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* texto de subtítulo */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Número texxo (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* Puntos/balas/indicadores */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animación */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .h2-avisos{
+        font-size:3vw;
+        text-align: center;
+    }
+    /*Section con tarjetas*/
+    .section-main{
+        float: left;
+        width: 100%;
+    }
+    .h2-avisos{
+        font-size:2.5vw;
+        text-align: center;
+    }
+    .div-tarjetas{
+        float: left;
+        width: 100%;
+        padding: 1%;
+    }
+    .tarjeta{
+        float: left;
+        width: 33.33%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-imagen-tarjeta{
+        float: left;
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .imagen-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .h3-tarjeta{
+        height: 350px;
+        text-align: center;
+        padding: 3% 4%;
+        width: 100%;
+    }
+    .div-boton-tarjeta{
+        float: left;
+        width: 100%;
+    }
+    .boton-tarjeta{
+        border-radius: 5px;
+        float: left;
+        margin: auto 25% 7%;
+        width: 50%;
+        padding: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .botontarjeta {
+        background-color: rgb(61, 58, 58);
+        color: rgb(255,255,255); 
+        border: 2px solid rgb(100, 224, 224);
+    }
+    .botontarjeta:hover {
+        background-color: rgb(100, 224, 224);
+        color: rgb(0,0,0);
+        border: 2px solid rgb(61, 58, 58);
+    }
+    .seccion-videos{
+        text-align: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .tarjeta-video{
+        float: left;
+        width: 25%;
+        border: rgba(0, 0, 0, .09) 5px solid;
+        border-radius: 10px;
+    }
+    .div-iframe{
+        float: left;
+        width: 100%;
+        padding: 2% 5%;
+    }
+    .iframe{
+        height: 150px;
+        float: left;
+        width: 100%;
+    }
+    .div-mapa{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+    }
+    .iframe-mapa{
+        float: left;
+        width: 100%;
+        padding: 1% 10%;
+    }
+    .mapa-google{
+        border-radius: 5px;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .direccion{
+        padding: 1% 10%;
+    }
+    .div-footer{
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 100%;
+        padding: 1% 0%;
+        text-align: center;
+        color: rgb(255,255,255);
+    }
+    .h4-footer{
+        color: rgb(255,255,255);
+        padding: 1% 0%;
+    }
+    .div-footer-1{
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .div-footer-2{
+        float: left;
+        text-align: left;
+        width: 30%;
+    }
+    .div-footer-3{
+        float: left;
+        text-align: right;
+        width: 70%;
+    }
+}/*@media (min-width: 1201px)*/

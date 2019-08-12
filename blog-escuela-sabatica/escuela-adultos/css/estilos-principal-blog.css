@@ -1,0 +1,611 @@
+* {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+	text-decoration: none;
+	font-family: sans-serif, Arial, Helvetica;
+	list-style: none;
+}
+.contenedor-filas-columnas{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+/*Columna de posición del header*/
+.caja-header {
+	float: left;
+	width: 100%;
+}
+.imagen-header {
+	background: rgb(61, 58, 58);
+	float: left;
+	width: 100%;
+}
+.logo {
+	width: 100%;
+}
+.titulo-header {
+	background: rgb(61, 58, 58);
+	float: left;
+	width: 100%;
+}
+.h1-header {
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 3% 0%;
+	width: 100%;
+}
+/*Menu*/
+.columna-nav{
+	float: left;
+	width: 100%;
+	background: rgb(100, 224, 224);
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.menu li {
+	text-align: center;
+	flex-grow: 1;
+}
+.menu li:hover{
+	background: rgba(5, 5, 5, 0.3) 
+}
+.menu li a{
+	display: block;
+	padding: 1%;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+/*Formulario buscar */
+.input-100 {
+	width: 70%;
+	margin: 1% 1%;
+	padding: 2%;
+}
+.boton_aceptar {
+	background: rgb(61, 58, 58);
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 1%;
+}
+/*Menu vertical*/
+.menu ul {
+	flex-direction: column;
+}
+/*Mapa*/
+.columnamapa {
+	float: left;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.mapa {
+	padding-left: 5px;
+}
+.mapa ul {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.mapa ul li {
+	list-style: none;
+	display: inline;
+}
+.amapa {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 1%;
+}
+/*Principal 1*/
+aside{
+	width: 100%;
+	float: left;
+}
+/*Menu2*/
+.columna-nav2{
+	float: left;
+	width: 100%;
+	background: rgb(100, 224, 224);
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.menu2 .li2 {
+	text-align: center;
+	flex-grow: 1;
+}
+.menu2 .li2:hover{
+	background: rgba(5, 5, 5, 0.3) 
+}
+.menu2 .li2 .a2{
+	display: block;
+	padding: 1%;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border-bottom: 1px solid rgb(61, 58, 58);
+	border-top: 1px solid rgb(61,58,58);
+}
+section{
+	width: 100%;
+	float: left;
+}
+.principal1 {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid rgb(61, 58, 58);
+	text-align: center;
+	padding: 1%;
+}
+.escuela {
+	padding: 0% 0%;
+	width: 100%;
+}
+.imagen {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.imagen_portada {
+	width: 50%;
+	height: 100%;
+	padding-bottom: 2%;
+}
+.editorial {
+	width: 100%;
+	float: left;
+	padding: 1% 0%;
+}
+.h2_escuela_sabatica {
+	width: 100%;
+	float: left;
+	padding: 3%;
+	padding-top: 0%;
+	text-align: center;
+	font-size: 26px;
+}
+.particle {
+	font-size: 19px;
+	padding: 2% 0%;
+}
+.boton_entrar {
+	width: 50%;
+	font-size: 25px;
+	font-weight: bold;
+	background: rgb(100, 224, 224);
+	border-width: 5px;
+	border-color: rgb(61, 58, 58);
+	cursor: pointer;
+}
+.boton_entrar a {
+	color: black;
+}
+/*Principal 2*/
+.principal2 {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 5% 0%;
+}
+.decalogo {
+	width: 100%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+.h2_decalogo {
+	width: 100%;
+	font-size: 26px;
+	text-align: center;
+}
+.p_article_decalogo {
+	padding: 2% 0%;
+	font-size: 20px;
+	font-weight: bold;
+	white-space: normal;
+	white-space: pre-wrap;
+}
+/*biblie gateway*/
+.principal2{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+.biblegateway{
+    padding: 5%;
+    width: 100%;
+}
+.h2_biblegateway{
+    width: 100%;
+    float: left;
+    padding: 3%;
+    padding-top: 0%;
+    text-align: center;
+    font-size: 26px;
+    white-space: pre-wrap;
+}
+.ibible{
+    width: 100%;
+    height: 750px;
+}
+.principal2{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0%;
+    margin:auto;
+}
+/*Footer*/
+.columna-footer {
+	background: rgb(61, 58, 58);
+	float: left;
+	text-align: center;
+	padding: 3%;
+	width: 100%;
+	border-top: solid aqua;
+}
+.a-footer {
+	color: #fff;
+	font-size: 17px;
+}
+.link-footer {
+	color: #fff;
+	font-size: 17px;
+}
+.pfooter {
+	color: #fff;
+	font-size: 23px;
+	padding: 5% 0% 0% 0%;
+}
+
+@media (min-width: 768px) {
+   /*Header*/
+	.caja-header {
+		float: left;
+		width: 100%;
+		background: rgb(61, 58, 58);
+   }
+	.imagen-header {
+		float: left;
+		padding-left: 10%;
+		width: 30%;
+   }
+	.logo {
+		width: 100%;
+   }
+	.titulo-header {
+		float: left;
+		padding-right: 10%;
+		width: 70%;
+   }
+	.h1-header {
+		color: #fff;
+		text-align: right;
+		font-size: 18px;
+		width: 100%;
+   }
+   /*Menu*/
+	.columna-nav{
+		float: left;
+		width: 100%;
+		background: rgb(100, 224, 224);
+		padding-right: 10%;
+		padding-left: 10% 
+   }
+	.menu{
+		padding-top: 0%;
+		padding-left: 0%;
+		padding-bottom: 0%;
+		padding-right: 0%;
+		display:block;
+   }
+	.menu ul {
+		list-style: none;
+		display: flex;
+   }
+	.menu li {
+		text-align: center;
+		flex-grow: 1;
+   }
+	.menu li:hover{
+		background: rgba(5, 5, 5, 0.3) 
+   }
+	.menu li a{
+		display: block;
+		padding: 0%;
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+   }
+	h3{
+		font-size: 14px;
+   }
+   /*Formulario buscar */
+   .input-100 {
+		width: 65%;
+		padding: 1%;
+   }
+	.boton_aceptar {
+		background: rgb(61, 58, 58);
+		color: white;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: bold;
+		padding: 1%;
+   }
+   /*Menu vertical*/
+   .menu ul {
+		flex-direction: row;
+   }
+   /*Mapa*/
+   .columnamapa {
+		float: left;
+		width: 100%;
+		padding-right: 10%;
+		padding-left: 10%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+   }
+	.mapa {
+		padding-left: 5px;
+   }
+	.mapa ul {
+		margin: 0;
+		padding: 0;
+		display: inline;
+   }
+	.mapa ul li {
+		list-style: none;
+		display: inline;
+   }
+	.amapa {
+		font-size: 20px;
+		font-weight: bold;
+		padding: 1%;
+   }
+  /*Principal 1*/
+  aside{
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+}
+/*Menu2*/
+.columna-nav2{
+	float: left;
+	width: 100%;
+	background: rgb(100, 224, 224);
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.menu2 .li2 {
+	text-align: center;
+	flex-grow: 1;
+}
+.menu2 .li2:hover{
+	background: rgba(5, 5, 5, 0.3) 
+}
+.menu2 .li2 .a2{
+	display: block;
+	padding: 5% 0%;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+h3{
+	font-size: 15px;
+}
+section{
+	width: 70%;
+	float: left;
+	padding-right: 10%;
+}
+.divtrimestres{
+	width: 100%;
+	float: left;
+}
+.principal1 {
+	width: 100%;
+	float: left;
+	margin-left: 0%;
+	margin-right: 0%;
+	box-sizing: border-box;
+	padding: 0%;
+}
+.escuela {
+	width: 100%;
+}
+.imagen {
+	width: 42%;
+	height: 100%;
+	float: left;
+}
+.imagen_portada {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 10%;
+}
+.editorial {
+	width: 58%;
+	float: left;
+}
+.h2_escuela_sabatica {
+	width: 100%;
+	float: left;
+	padding: 1%;
+	padding-top: 0%;
+	text-align: center;
+	font-size: 20px;
+}
+.boton_entrar {
+	width: 75%;
+	font-size: 20px;
+	font-weight: bold;
+	background: rgb(100, 224, 224);
+	border-width: 5px;
+	border-color: rgb(61, 58, 58);
+	cursor: pointer;
+	margin-left: 2%;
+}
+   /*Footer*/
+   .columna-footer {
+		background: rgb(61, 58, 58);
+		width: 100%;
+		float: left;
+		padding: 1% 10% 1% 10%;
+		text-align: center;
+	}
+	.ul-footer {
+		float: left;
+		width: 40%;
+		text-align: left;
+		
+	}
+	.a-footer {
+		color: #fff;
+		text-align: left;
+		padding: 0% 0%;
+		font-size: 18px;
+	}
+	.pfooter-1 {
+		float: left;
+		width: 60%;
+		text-align: right;
+	}
+	.link-footer {
+		color: #fff;
+		font-size: 18px;
+	}
+	
+	.pfooter {
+		color: #fff;
+		font-size: 22px;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+   }
+}
+
+@media (min-width: 1024px) {
+   /*Header*/
+	.caja-header {
+		float: left;
+		width: 100%;
+		background: rgb(61, 58, 58);
+   }
+	.imagen-header {
+		float: left;
+		padding-left: 10%;
+		width: 30%;
+   }
+	.logo {
+		width: 100%;
+   }
+	.titulo-header {
+		float: left;
+		padding-right: 10%;
+		width: 70%;
+   }
+	.h1-header {
+		color: #fff;
+		text-align: right;
+		font-size: 24px;
+		width: 100%;
+	}
+	.imagen_portada {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 10%;
+   }
+   .imagen{
+	width: 30%;
+	float: left;
+   }
+   .editorial {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+.h2_escuela_sabatica{
+	text-align: center;
+}
+	/*Principal*/
+	.principal1{
+		
+		text-align: left;
+	}
+	h3{
+		font-size: 20px;
+		text-align: left;
+	}
+	.h2_escuela_sabatica {
+		width: 100%;
+		float: left;
+		padding: 1% 0%;
+		padding-top: 0%;
+		font-size: 24px;
+		text-align: left;
+   }
+   .particle {
+	font-size: 18px;
+	padding: 1%;
+	padding-bottom: 9%;
+	text-align: left;
+}
+.boton_entrar {
+	width: 50%;
+	font-size: 20px;
+	font-weight: bold;
+	background: rgb(100, 224, 224);
+	border-width: 5px;
+	border-color: rgb(61, 58, 58);
+	cursor: pointer;
+	margin-left: 0%;
+
+}
+.biblegateway{
+padding: 0% 0%;
+width: 100%;
+}
+	/*Footer*/
+	.columna-footer {
+		background: rgb(61, 58, 58);
+		width: 100%;
+		float: left;
+		padding: 1% 10%;
+		text-align: center;
+		border-top: solid aqua;
+	}
+	.ul-footer {
+		float: left;
+		width: 40%;
+		text-align: left;
+	}
+	.a-footer {
+		color: #fff;
+		text-align: left;
+		padding: 1% 0%;
+		font-size: 24px;
+	}
+	.pfooter-1 {
+		float: left;
+		width: 60%;
+		text-align: right;
+	}
+	.link-footer {
+		color: #fff;
+		font-size: 24px;
+	}
+	.pfooter {
+		color: #fff;
+		font-size: 25px;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+		padding: 5% 0% 0% 5%;
+   }
+}

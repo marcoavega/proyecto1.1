@@ -1,0 +1,1155 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: sans-serif, Arial, Helvetica;
+    list-style: none;
+}
+.contenedor-filas-columnas{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+/*Columna de posición del header*/
+.caja-header {
+    float: left;
+    width: 100%;
+}
+.imagen-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+}
+.titulo-header {
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+}
+.h1-header {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 3% 0%;
+    width: 100%;
+}
+/*Menu*/
+.columna-nav{
+    float: left;
+    width: 100%;
+    background: rgb(100, 224, 224);
+    padding-right: 10%;
+    padding-left: 10% 
+}
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+.menu li:hover{
+    background: rgba(5, 5, 5, 0.3) 
+}
+.menu li a{
+    display: block;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*Formulario buscar */
+.input-100 {
+    width: 70%;
+    margin: 1% 1%;
+    padding: 2%;
+}
+.boton_aceptar {
+    background: rgb(61, 58, 58);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%;
+}
+/*Menu vertical*/
+.menu ul {
+    flex-direction: column;
+}
+/*Mapa*/
+.columnamapa{
+    float: left;
+    width: 100%;
+    padding: 2% 5%;
+}
+.mapa ul li {
+    display: inline;
+}
+.amapa{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1%;
+}
+.boton_regresar{
+    float: left;
+    width: 100%;
+    padding: 0% 5%;
+}
+/*Principal 1*/
+.principal1{
+    float: left;
+    width: 100%;
+}
+.h2_titulo_principal{
+    float: left;
+    width: 100%;
+    padding: 5% 0%;
+    text-align: center;
+    font-size: 22px;
+}
+.h3fecha{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.escuela{
+    float: left;
+    padding: 5% 0%;
+    width: 100%;
+}
+.versiculo_memoria{
+    background: #ccc;
+    float: left;
+    padding: 3%;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 96%;
+    margin: 1% 2%;
+}
+.h4versiculo{
+    font-size: 22px;
+    float: left;
+    padding: 3%;
+    padding-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+.particlecentrado{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1%;
+    text-align: center;
+}
+.h4titulolectura{
+    font-size: 22px;
+    float: left;
+    padding: 0% 3%;
+    padding-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+.particle{
+    font-weight: bold;
+    float: left;
+    font-size: 16px;
+    padding: 1.5% 10%;
+    width: 100%;
+    white-space: normal;
+    white-space: pre-wrap;
+}
+.objetivo{
+    border: 5px solid rgb(100, 224, 224);
+    float: left;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(61, 58, 58);
+    color: #fff;
+    height: 100%;
+}
+.h4tituloobjetivo{
+    font-size: 20px;
+    float: left;
+    padding: 1% 0%;
+    text-align: center;
+    width: 100%;
+}
+.particleobjetivo{
+    float: left;
+    font-size: 17px;
+    padding: 1% 0%;
+    text-align: center;
+    width: 100%;
+}
+.h4titulocomentario{
+    font-size: 25px;
+    float: left;
+    padding: 0% 3%;
+    padding-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+/*Preguntas*/
+.h2preguntas{
+    background: rgb(100, 224, 224);
+    color: black;
+    font-size: 22px;
+    float: left;
+    margin: .5% 0%;
+    text-align: center;
+    width: 100%;
+}
+.div_preguntas_botones2{
+    float: left;
+    padding: 1% 5%;
+    text-align: center;
+    width: 100%;
+}
+.span_pregunta2{
+    float: left;
+    padding: 1%;
+    width: 32.33%;
+    border: 2px rgb(100, 224, 224) solid;
+    background: rgb(61, 58, 58);
+    cursor: pointer;
+    font-size: 12px;
+    margin: 1% .5%;
+    color: white;
+    font-weight: bold;
+}
+.div_preguntas_botones{
+    float: left;
+    padding: 1% 5%;
+    text-align: center;
+    width: 100%;
+}
+.span_pregunta{
+    float: left;
+    padding: 1%;
+    width: 24%;
+    border: 2px rgb(100, 224, 224) solid;
+    background: rgb(61, 58, 58);
+    cursor: pointer;
+    font-size: 12px;
+    margin: 1% .5%;
+    color: white;
+    font-weight: bold;
+}
+.h3preguntas{
+    background: rgb(61, 58, 58);
+    color: white;
+    float: left;
+    padding: 3%;
+    white-space: normal;
+    white-space: pre-wrap;
+    width: 100%;
+    border: 2px solid rgb(100, 224, 224);
+}
+.comentarios{
+    float: left;
+    padding: 1% 2%;
+    width: 100%;
+}
+.h4comentario{
+    float: left;
+    padding: 3%;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgb(238, 237, 237);
+    width: 100%;
+    margin: 0% 0% 1% 0%;
+}
+.h4comentario-p {
+    font-weight: bold;
+}
+.container{
+    float: left;
+    padding: 1%;
+    width: 100%;
+}
+.respuesta{
+    float: left;
+    width: 96%;
+    border-radius: 4px;
+    border: 2px solid rgb(61, 58, 58);
+    margin: 2%;
+    padding: 0% 1%;
+}
+.actualizar{
+    float: left;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
+.div-actualizar-imagen {
+    float: left;
+    width: 100%;
+}
+.actualizar-imagen {
+    float: left;
+    width: 15%;
+}
+.label_contestar{
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0% 0%;
+}
+.fname{
+    float: left;
+    width: 50%;
+    font-size: 18px;
+    text-align: left;
+}
+.inputname{
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.imagen1{
+    display:none;
+}
+.id_usuario1{
+    display:none;
+}
+.pregunta1{
+    display:none;
+}
+.datos_trimestre1{
+    display:none;
+}
+.label_comentario{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.textarea{
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+    background: #ccc;
+    height: 150px;
+    padding: 1%;
+    width: 100%;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.boton_entrar{
+    border-color: rgb(100, 224, 224);
+    background: rgb(61, 58, 58);
+    border-width: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    padding: 2%;
+    margin: 3% 1%;
+    width: 50%;
+}
+.boton_eliminar{
+    border-color: rgb(100, 224, 224);
+    background: rgb(61, 58, 58);
+    border-width: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    padding: 1%;
+    margin: 0% 0% 3% 0%;
+    width: 25%;
+}
+.sin_pregunta{
+    color: #fff;
+    background: rgb(61, 58, 58);
+    float: left;
+    padding: 5% 10%;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+
+}
+/*Footer*/
+.columna-footer {
+    background: rgb(61, 58, 58);
+    float: left;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    border-top: solid aqua;
+}
+.a-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.link-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.pfooter {
+    color: #fff;
+    font-size: 23px;
+    padding: 5% 0% 0% 0%;
+}
+@media (min-width: 768px) {
+    /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+    }
+    .imagen-header {
+        float: left;
+        padding-left: 5%;
+        width: 30%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .titulo-header {
+        float: left;
+        padding-right: 5%;
+        width: 70%;
+    }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        width: 100%;
+    }
+    /*Menu*/
+    .columna-nav{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+        padding-right: 5%;
+        padding-left: 5% 
+    }
+    .menu{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        display:block;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+    }
+    .menu li {
+        text-align: center;
+        flex-grow: 1;
+    }
+    .menu li:hover{
+        background: rgba(5, 5, 5, 0.3) 
+    }
+    .menu li a{
+        display: block;
+        padding: 0%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    h3{
+        font-size: 16px;
+    }
+    /*Menu vertical*/
+    .menu ul {
+        flex-direction: row;
+    }
+    /*Mapa*/
+    .columnamapa{
+        float: left;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 5% 
+    }
+    .mapa {
+        padding-left: 5px;
+    }
+    .mapa ul {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    .mapa ul li {
+        list-style: none;
+        display: inline;
+    }
+    .amapa{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 1%;
+    }
+    .boton_regresar{
+        float: left;
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .aside{
+        float: left;
+        width: 30%;
+        padding: 1.5% 0% 1% 5%;
+        
+    }
+    .section{
+        float: left;
+        width: 70%;
+        padding: 1% 5% 1% 0%;
+        
+    }
+    /*seccion principal*/
+    .h2_titulo_principal{
+        padding: 0%;
+        font-size: 21px;
+    }
+    .escuela{
+        padding: 0% 0%;
+    }
+    .versiculo_memoria{
+        float: left;
+        padding: 1%;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0% 0%;
+    }
+    .h4versiculo{
+        font-size: 24px;
+        float: left;
+        padding: 2%;
+        padding-top: 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particlecentrado{
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+    }
+    .h4titulolectura{
+        font-size: 24px;
+        float: left;
+        padding: 0% 0%;
+        padding-top: 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particle{
+        font-weight: bold;
+        float: left;
+        font-size: 22px;
+        padding: 1% 0%;
+        width: 100%;
+        white-space: normal;
+        white-space: pre-wrap;
+        text-align: left;
+    }
+    .objetivo{
+        border: 5px solid rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background: rgb(61, 58, 58);
+        color: #fff;
+        height: 100%;
+    }
+    .h4tituloobjetivo{
+        font-size: 22px;
+        float: left;
+        padding: 0% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particleobjetivo{
+        float: left;
+        font-size: 21px;
+        padding: 1% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .h4titulocomentario{
+        font-size: 22px;
+    }
+    .particle{
+        font-size: 20px;
+    }
+    /*Preguntas*/
+    .h2preguntas{
+        border: 2px solid rgb(61, 58, 58);
+        background: rgb(100, 224, 224);
+        color: black;
+        float: left;
+        text-align: center;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 23px;
+    }
+    .div_preguntas_botones2{
+        float: left;
+        margin: 1% 5%;
+        text-align: center;
+        width: 90%;
+    }
+    .div_pregunta{
+        float: left;
+        padding: 1% 0% 1% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .span_pregunta2{
+        float: left;
+        padding: 1%;
+        width: 100%;
+        border: 2px rgb(100, 224, 224) solid;
+        background: rgb(61, 58, 58);
+        cursor: pointer;
+        font-size: 14px;
+        margin: 1% .5%;
+        color: white;
+        font-weight: bold;
+    }
+    .div_preguntas_botones{
+        float: left;
+        padding: 1% 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .span_pregunta{
+        float: left;
+        padding: 0.5%;
+        width: 24%;
+        border: 2px rgb(100, 224, 224) solid;
+        background: rgb(61, 58, 58);
+        cursor: pointer;
+        font-size: 14px;
+        margin: 0.5% .5%;
+        color: white;
+        font-weight: bold;
+    }
+    .h3preguntas{
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        background: rgb(61, 58, 58);
+        color: white;
+        float: left;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 20.5px;
+        border: 2px solid rgb(100, 224, 224);
+        text-align: left;
+    }
+    .h4comentario{
+        float: left;
+        padding: 1%;
+        border: 3px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: rgb(238, 237, 237);
+        width: 100%;
+        margin: 1% 0% 0% 0%;
+        text-align: left;
+    }
+    .comentarios{
+        float: left;
+        padding: 0% 0%;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 20px;
+    }
+    .respuesta{
+        float: left;
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        width: 100%;
+        margin: 2% 0%;
+        padding: 0% 0%;
+    }
+    .label_contestar{
+        float: left;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0% 0%;
+    }
+    .fname{
+        float: left;
+        width: 30%;
+        font-size: 18px;
+        padding: 0% 0%;
+    }
+    .inputname{
+        border: 0;
+        font-size: 18px;
+        font-weight: bold;
+        float: left;
+        width: 70%;
+    }
+    .label_comentario{
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2%;
+        width: 100%;
+    }
+    .textarea{
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        float: left;
+        background: #ccc;
+        height: 150px;
+        width: 100%;
+        margin: 1% 0%;
+    }
+    .boton_entrar{
+        border-color: rgb(100, 224, 224);
+        background: rgb(61, 58, 58);
+        border-width: 2px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        float: right;
+        padding: 1%;
+        margin: 0% 0% 5% 0%;
+        width: 30%;
+    }
+    .sin_pregunta{
+        color: #fff;
+        background: rgb(61, 58, 58);
+        float: left;
+        padding: 5% 5%;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+
+    }
+    /*Footer*/
+    .columna-footer {
+        background: rgb(61, 58, 58);
+        width: 100%;
+        float: left;
+        padding: 5% 10% 2% 10%;
+        text-align: center;
+    }
+    .ul-footer {
+        float: left;
+        width: 40%;
+        text-align: left;
+
+    }
+    .a-footer {
+        color: #fff;
+        text-align: left;
+        padding: 1% 0%;
+        font-size: 18px;
+    }
+    .pfooter-1 {
+        float: left;
+        width: 60%;
+        text-align: right;
+    }
+    .link-footer {
+        color: #fff;
+        font-size: 18px;
+    }
+    .pfooter {
+        color: #fff;
+        font-size: 22px;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+@media (min-width: 1024px) {
+     /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+    }
+    .imagen-header {
+        float: left;
+        padding-left: 5%;
+        width: 30%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .titulo-header {
+        float: left;
+        padding-right: 5%;
+        width: 70%;
+    }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        width: 100%;
+    }
+    /*Menu*/
+    .columna-nav{
+        float: left;
+        width: 100%;
+        background: rgb(100, 224, 224);
+        padding-right: 5%;
+        padding-left: 5% 
+    }
+    .menu{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        display:block;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+    }
+    .menu li {
+        text-align: center;
+        flex-grow: 1;
+    }
+    .menu li:hover{
+        background: rgba(5, 5, 5, 0.3) 
+    }
+    .menu li a{
+        display: block;
+        padding: 0%;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    h3{
+        font-size: 16px;
+    }
+    /*Menu vertical*/
+    .menu ul {
+        flex-direction: row;
+    }
+    /*Mapa*/
+    .columnamapa{
+        float: left;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 5% 
+    }
+    .mapa {
+        padding-left: 5px;
+    }
+    .mapa ul {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    .mapa ul li {
+        list-style: none;
+        display: inline;
+    }
+    .amapa{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 1%;
+    }
+    .boton_regresar{
+        float: left;
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .aside{
+        float: left;
+        width: 30%;
+        padding: 1.5% 0% 1% 5%;
+        
+    }
+    .section{
+        float: left;
+        width: 70%;
+        padding: 1% 5% 1% 0%;
+        
+    }
+    /*seccion principal*/
+    .h2_titulo_principal{
+        padding: 0%;
+        font-size: 21px;
+    }
+    .escuela{
+        padding: 0% 0%;
+    }
+    .versiculo_memoria{
+        float: left;
+        padding: 1%;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0% 0%;
+    }
+    .h4versiculo{
+        font-size: 24px;
+        float: left;
+        padding: 2%;
+        padding-top: 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particlecentrado{
+        font-size: 22px;
+        font-weight: bold;
+        width: 100%;
+    }
+    .h4titulolectura{
+        font-size: 24px;
+        float: left;
+        padding: 0% 0%;
+        padding-top: 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particle{
+        font-weight: bold;
+        float: left;
+        font-size: 22px;
+        padding: 1% 0%;
+        width: 100%;
+        white-space: normal;
+        white-space: pre-wrap;
+        text-align: left;
+    }
+    .objetivo{
+        border: 5px solid rgb(100, 224, 224);
+        float: left;
+        width: 100%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background: rgb(61, 58, 58);
+        color: #fff;
+        height: 100%;
+    }
+    .h4tituloobjetivo{
+        font-size: 22px;
+        float: left;
+        padding: 0% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .particleobjetivo{
+        float: left;
+        font-size: 21px;
+        padding: 1% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .h4titulocomentario{
+        font-size: 22px;
+    }
+    .particle{
+        font-size: 20px;
+    }
+    /*Preguntas*/
+    .h2preguntas{
+        border: 2px solid rgb(61, 58, 58);
+        background: rgb(100, 224, 224);
+        color: black;
+        float: left;
+        text-align: center;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 23px;
+    }
+    .div_preguntas_botones2{
+        float: left;
+        margin: 1% 5%;
+        text-align: center;
+        width: 90%;
+    }
+    .div_pregunta{
+        float: left;
+        padding: 1% 0% 1% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .span_pregunta2{
+        float: left;
+        padding: 1%;
+        width: 100%;
+        border: 2px rgb(100, 224, 224) solid;
+        background: rgb(61, 58, 58);
+        cursor: pointer;
+        font-size: 14px;
+        margin: 1% .5%;
+        color: white;
+        font-weight: bold;
+    }
+    .div_preguntas_botones{
+        float: left;
+        padding: 1% 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .span_pregunta{
+        float: left;
+        padding: 0.5%;
+        width: 24%;
+        border: 2px rgb(100, 224, 224) solid;
+        background: rgb(61, 58, 58);
+        cursor: pointer;
+        font-size: 14px;
+        margin: 0.5% .5%;
+        color: white;
+        font-weight: bold;
+    }
+    .h3preguntas{
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        background: rgb(61, 58, 58);
+        color: white;
+        float: left;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 20.5px;
+        border: 2px solid rgb(100, 224, 224);
+        text-align: left;
+    }
+    .h4comentario{
+        float: left;
+        padding: 1%;
+        border: 3px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: rgb(238, 237, 237);
+        width: 100%;
+        margin: 1% 0% 0% 0%;
+        text-align: left;
+    }
+    .comentarios{
+        float: left;
+        padding: 0% 0%;
+        width: 100%;
+        margin: 0% 0%;
+        font-size: 20px;
+    }
+    .respuesta{
+        float: left;
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        width: 100%;
+        margin: 2% 0%;
+        padding: 0% 0%;
+    }
+    .label_contestar{
+        float: left;
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0% 0%;
+    }
+    .fname{
+        float: left;
+        width: 30%;
+        font-size: 18px;
+        padding: 0% 0%;
+    }
+    .inputname{
+        border: 0;
+        font-size: 18px;
+        font-weight: bold;
+        float: left;
+        width: 70%;
+    }
+    .label_comentario{
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2%;
+        width: 100%;
+    }
+    .textarea{
+        border-radius: 4px;
+        border: 2px solid rgb(61, 58, 58);
+        float: left;
+        background: #ccc;
+        height: 150px;
+        width: 100%;
+        margin: 1% 0%;
+    }
+    .boton_entrar{
+        border-color: rgb(100, 224, 224);
+        background: rgb(61, 58, 58);
+        border-width: 2px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        float: right;
+        padding: 1%;
+        margin: 0% 0% 5% 0%;
+        width: 30%;
+    }
+    .sin_pregunta{
+        color: #fff;
+        background: rgb(61, 58, 58);
+        float: left;
+        padding: 5% 5%;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+
+    }
+    /*Footer*/
+    .columna-footer {
+        background: rgb(61, 58, 58);
+        width: 100%;
+        float: left;
+        padding: 5% 10% 2% 10%;
+        text-align: center;
+    }
+    .ul-footer {
+        float: left;
+        width: 40%;
+        text-align: left;
+
+    }
+    .a-footer {
+        color: #fff;
+        text-align: left;
+        padding: 1% 0%;
+        font-size: 18px;
+    }
+    .pfooter-1 {
+        float: left;
+        width: 60%;
+        text-align: right;
+    }
+    .link-footer {
+        color: #fff;
+        font-size: 18px;
+    }
+    .pfooter {
+        color: #fff;
+        font-size: 22px;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+    }
+
+}

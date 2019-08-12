@@ -1,0 +1,693 @@
+/*Movile first*/
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+/*Contenedor de toda la página para filas y columnas para los div*/
+.contenedor-filas-columnas {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+/*Columna de posición del header*/
+.caja-header {
+    float: left;
+    width: 100%;
+    background: rgb(61, 58, 58);
+}
+.imagen-header {
+    float: left;
+    width: 100%;
+
+}
+.logo {
+    width: 70%;
+    margin: 0% 15%;
+}
+.titulo-header {
+    float: left;
+    width: 100%;
+}
+.h1-header {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 3% 0%;
+}
+/*Columna menu principal nav*/
+.menu {
+    width: 100%;
+    float: left;
+    background: rgb(100, 224, 224);
+}
+.ul-nav {
+    list-style: none;
+}
+.li-nav {
+    text-align: center;
+    
+}
+.li-nav:hover {
+    background: rgba(5, 5, 5, 0.3); 
+}
+.a-nav {
+    display: block;
+    padding: 3%;
+    text-decoration: none;
+}
+.h2-menu-nav {
+    color: rgb(0, 0, 0);
+}
+/*Slider 2*/
+/* CSS Document */
+.divmayor{
+    width: 100%;
+    float: left;
+    padding: 1%;
+}
+/* Slider automático de 4 imágenes*/
+.container {
+    --base  : 350px;
+    --ancho : calc(var(--base) * 1);
+    max-width        : var(--ancho);
+    width            : 96%;
+    margin           : auto;
+    background-color : rgba(0,0,0,0.1);
+    text-align: center;
+}
+.slider2 {
+    max-width : var(--ancho);
+    height    : calc(var(--ancho) / (16 / 9) );
+    outline   : 2px solid hsla(0, 100%, 100%, 1);
+    position  : relative;
+    margin    : auto;
+    overflow  : hidden;
+    background-color: #000;
+}
+.show {
+    position    : absolute;
+    top         : 0;
+    left        : 0;
+    line-height : 0;
+    display     : table;
+    width       : 100%;
+    height      : 400%;
+    animation   : ani 16s ease-out infinite alternate;
+}
+img {
+    max-width : 100%; /* 24.84% en FF */
+    height    : auto;
+    opacity   : 1;
+}
+@keyframes ani {
+    0%,20%   { top: 0; opacity: 1;}
+    25%      { top: 0; }
+    26%      { opacity: 0; }
+    27%,47%  { top: -100%; opacity: 1;}
+    52%      { top: -100%; }
+    53%      { opacity: 0; }
+    54%,74%  { top: -200%; opacity: 1;}
+    79%      { top: -200%; }
+    80%      { opacity: 0;}
+    81%,100% { top: -300%; opacity: 1;}
+}
+/*fin slider*/
+/*Avisos*/
+.main{
+    float: left;
+    width: 100%;
+}
+.h4avisos {
+    background: rgb(61, 58, 58);
+    color: white;
+    float: left;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(61, 58, 58);
+}
+.columna-avisos-i {
+    background: rgb(100, 224, 224);
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.columna-avisos-m {
+    background: rgb(100, 224, 224);
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.columna-avisos-d {
+    background: rgb(100, 224, 224);
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.h6-avisos {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+.p-avisos {
+    text-align: center;
+    font-size: 18px;
+}
+.botonavisos {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    color: #ffffff;
+    padding: 3%;
+    background-color: rgb(61, 58, 58);
+    border-color: rgb(100, 224, 224);
+    border-width: 3%;
+    border-style: solid;
+    cursor: pointer;
+}
+/*Bloque de aside*/
+.columna-article-i {
+    flat: left;
+    width: 100%;
+    padding: 2% 1%;
+}
+
+.info__columna {
+    width: 100%;
+}
+.imagen-article {
+    width: 100%;
+}
+.h3-article {
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+}
+.info__txt {
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+}
+.boton-article {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 3%;
+    background-color: rgb(61, 58, 58);
+    border-color: rgb(100, 224, 224);
+    border-width: 3%;
+    border-style: solid;
+    cursor: pointer;
+}
+/*Videos aside*/
+.h4-titulo-videos {
+    width: 100%;
+    float: left;
+    background: rgb(61, 58, 58);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 4% 0%;
+}
+.columna-aside-i, .columna-aside-m, .columna-aside-d {
+    color: #ffffff;
+    background: rgb(61, 58, 58);
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding: 2% 0%;
+}
+.video-aside {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding: 5%;
+}
+.h5-video {
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+}
+.divvideosyoutube {
+    float: left;
+    background: rgb(61, 58, 58);
+    padding: 2% 1%;
+    width: 100%;
+}
+.botonvideosyoutube {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    color: #ffffff;
+    padding: 3%;
+    background-color: rgb(61, 58, 58);
+    border-color: rgb(100, 224, 224);
+    border-width: 3%;
+    border-style: solid;
+    cursor: pointer;
+}
+/*Mapa*/
+.columna-mapa {
+    float: left;
+    width: 100%;
+    background: rgb(61, 58, 58);
+}
+.mapa {
+    width: 100%;
+    padding: 2%;
+    background: rgb(61, 58, 58);
+}
+.columna-direccion {
+    color: white;
+    float: left;
+    width: 100%;
+    background: rgb(61, 58, 58);
+    text-align: center;
+    padding-bottom: 2%
+}
+.pmapa {
+    font-size: 25px;
+}
+/*Footer*/
+.columna-footer {
+    background: rgb(61, 58, 58);
+    float: left;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    border-top: solid aqua;
+}
+.a-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.link-footer {
+    color: #fff;
+    font-size: 17px;
+}
+.pfooter {
+    color: #fff;
+    font-size: 23px;
+    padding: 5% 0% 0% 0%;
+}
+@media (min-width: 768px) {
+    /*Header*/
+    .caja-header {
+        float: left;
+        width: 100%;
+        background: rgb(61, 58, 58);
+    }
+    .imagen-header {
+        float: left;
+        padding-left: 5%;
+        width: 30%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .titulo-header {
+        float: left;
+        padding-right: 5%;
+        width: 70%;
+    }
+    .h1-header {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        width: 100%;
+    }
+    /*Columna menu principal nav*/
+    .columna-100-nav {
+        width: 100%;
+        float: left;
+    }
+    .menu {
+        background: rgb(100, 224, 224);
+        width: 100%;
+        float: left;
+        padding: 0% 5%;
+    }
+    .ul-nav {
+        list-style: none;
+    }
+    .li-nav {
+        float: left;
+        text-align: center;
+        width: 33.33%;
+    }
+    .li-nav:hover {
+        background: rgba(5, 5, 5, 0.3) 
+    }
+    .a-nav {
+        display: block;
+        padding: 0%;
+        text-decoration: none;
+    }
+    .h2-menu-nav {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    /*Slider de section*/
+    /*Slider 2*/
+    .container {
+        --base  : 580px;
+        --ancho : calc(var(--base) * 1);
+        max-width        : var(--ancho);
+        width            : 96%;
+        margin           : auto;
+        background-color : rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    /*Termina slider 2*/
+    /*Avisos*/
+    .main {
+        width: 90%;
+        float: left;
+        margin: 0% 5%;
+    }
+    .h4avisos {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .columna-avisos-i {
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 33.3333%;
+        text-align: center;
+        padding: .5%;
+    }
+    .columna-avisos-m {
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 33.3333%;
+        text-align: center;
+        padding: .5%;
+    }
+    .columna-avisos-d {
+        background: rgb(100, 224, 224);
+        float: left;
+        width: 33.3333%;
+        text-align: center;
+        padding: .5%;
+    }
+    .imagen_avisos {
+        width: 100%;
+        padding: 0%;
+    }
+    .h6-avisos {
+        font-size: 20px;
+        text-align: center;
+        padding: 0%;
+        width: 100%;
+        height: 100px;
+    }
+    .p-avisos {
+        text-align: center;
+        font-size: 12px;
+        height: 60px;
+    }
+    .botonavisos {
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 100%;
+        color: #ffffff;
+        padding: 3%;
+        background-color: rgb(61, 58, 58);
+        border-color: rgb(100, 224, 224);
+        border-width: 3%;
+        border-style: solid;
+        cursor: pointer;
+        margin-bottom: 2%;
+    }
+    .columna-article-i {
+        float: left;
+        width: 100%;
+        padding: 0% 0%;
+
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-top-color: rgb(61, 58, 58);
+    }
+    .imagen-article {
+        float: left;
+        width: 50%;
+    }
+    .h3-article {
+        float: left;
+        text-align: center;
+        width: 50%;
+    }
+    .info__txt {
+        float: left;
+        text-align: center;
+        width: 50%;
+    }
+    .boton-article {
+        float: right;
+        width: 50%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 100%;
+        color: #ffffff;
+        padding: 1%;
+        background-color: rgb(61, 58, 58);
+        border-color: rgb(100, 224, 224);
+        border-width: 3%;
+        border-style: solid;
+        cursor: pointer;
+        margin-bottom: 0%;
+    }
+
+    /*Videos aside*/
+    .seccion-videos{
+        width: 90%;
+        float: left;
+        margin: 0% 5%;
+    }
+    .caja-videos-himnos {
+        width: 50%;
+        float: left;
+        padding: 0% 0%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(100, 224, 224);
+    }
+    .h4-titulo-videos {
+        height: 100px;
+        color: #fff;
+        text-align: center;
+        font-size: 21px;
+        padding: 1% 1%;
+    }
+    .columna-aside-i {
+        color: #ffffff;
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1% 1%;
+    }
+    .columna-aside-m {
+        color: #ffffff;
+        background: rgb(61, 58, 58);
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1% 1%;
+    }
+    .video-aside {
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding: 1% 2%;
+    }
+    .h5-video {
+        font-size: 15px;
+        height: 140px;
+        text-align: center;
+        padding: 1%;
+        width: 100%;
+    }
+    .divvideosyoutube {
+        float: left;
+        background: rgb(61, 58, 58);
+        padding: 1% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .botonvideosyoutube {
+        width: 70%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 100%;
+        color: #ffffff;
+        padding: 1%;
+        background-color: rgb(61, 58, 58);
+        border-color: rgb(100, 224, 224);
+        border-width: 3%;
+        border-style: solid;
+        cursor: pointer;
+    }
+    /*Mapa*/
+    .columna-mapa {
+        width: 100%;
+        float: left;
+        padding: 0% 10%;
+        background: rgb(61, 58, 58);
+    }
+    .mapa {
+        width: 100%;
+        padding: 2%;
+        background: rgb(61, 58, 58);
+    }
+    .columna-direccion {
+        color: white;
+        width: 100%;
+        float: left;
+        padding: 0% 10%;
+        background: rgb(61, 58, 58);
+        text-align: center;
+        padding-bottom: 2%
+    }
+    .pmapa {
+        font-size: 25px;
+    }
+    /*Footer*/
+    .columna-footer {
+        background: rgb(61, 58, 58);
+        width: 100%;
+        float: left;
+        padding: 2% 5% 2% 5%;
+        text-align: center;
+    }
+    .ul-footer {
+        float: left;
+        width: 40%;
+        text-align: left;
+
+    }
+    .a-footer {
+        color: #fff;
+        text-align: left;
+        padding: 1% 0%;
+        font-size: 18px;
+    }
+    .pfooter-1 {
+        float: left;
+        width: 60%;
+        text-align: right;
+    }
+    .link-footer {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .pfooter {
+        color: #fff;
+        font-size: 22px;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+@media (min-width: 1024px) {
+    /*Slider 2*/
+    .container {
+        --base  : 700px;
+        --ancho : calc(var(--base) * 1);
+        max-width        : var(--ancho);
+        width            : 96%;
+        margin           : auto;
+        background-color : rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    /*Termina slider 2*/
+    .h1-header{
+        font-size: 28px;
+    }
+    .h2-menu-nav{
+        font-size: 26px;
+    }
+    .h4avisos{
+        font-size: 28px;
+    }
+    .h6-avisos{
+        font-size: 26px;
+    }
+    .p-avisos{
+        font-size: 18px;
+    }
+    .h3-article{
+        font-size: 28px;
+    }
+    .info__txt{
+        font-size: 24px;
+    }
+    .a-boton{
+        font-size: 24px;
+    }
+    .h4-titulo-videos{
+        font-size: 28px;
+    }
+    .h5-video{
+        font-size: 18px;
+    }
+    .mapa{
+        width: 100%;
+        height: 350px;
+    }
+    /*Footer*/
+    .columna-footer {
+        background: rgb(61, 58, 58);
+        width: 100%;
+        float: left;
+        padding: 2% 10%;
+        text-align: center;
+        border-top: solid aqua;
+    }
+    .ul-footer {
+        float: left;
+        width: 40%;
+        text-align: left;
+    }
+    .a-footer {
+        color: #fff;
+        text-align: left;
+        padding: 1% 0%;
+        font-size: 27px;
+    }
+    .pfooter-1 {
+        float: left;
+        width: 60%;
+        text-align: right;
+    }
+    .link-footer {
+        color: #fff;
+        font-size: 27px;
+    }
+    .pfooter {
+        color: #fff;
+        font-size: 29px;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+        padding: 5% 0% 0% 5%;
+    }
+}
