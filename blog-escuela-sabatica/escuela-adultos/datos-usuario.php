@@ -122,7 +122,7 @@ while ($row=mysqli_fetch_array($resultadoconsultaid))
 ?>
 
 <div class="actualizar">
-   <img class="actualizar-imagen" src="/imagenes/imagenes2/<?php echo $ruta_img; ?>" alt="" />
+   <img class="actualizar-imagen" src="\imagenes\imagenes2\<?php echo $ruta_img; ?>" alt="" />
 </div>
 
          <div class="actualizar">

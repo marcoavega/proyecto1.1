@@ -6,5 +6,6 @@ $servidor    = "localhost";
 $basededatos = "blog_escuela_sabatica";
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $basededatos) or die("No se conecto");
 $db = mysqli_select_db($conexion, $basededatos) or die("Ups error de conexion a base de datos");
+$caracteres = mysqli_set_charset($conexion,'utf8');
 return $conexion;
 ?>

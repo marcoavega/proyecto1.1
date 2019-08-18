@@ -92,7 +92,7 @@ require("sesiones.php");
                   <div class="editorial">
                      <h2 class="h2_escuela_sabatica">Lección 1. El celo de Jehová.</h2>
                      <p class="pfecha">06 de julio de 2019</p>
-                     <a href="https://www.iddios.ga/blog-escuela-sabatica/escuela-adultos/trimestres/3er-trimestre-2019/leccion1/leccion1.php"><button class="boton_entrar">Entrar a lección.</button></a>
+                     <a href="trimestres/3er-trimestre-2019/leccion1/leccion1.php"><button class="boton_entrar">Entrar a lección.</button></a>
                   </div>
                </article>
             </div>
@@ -101,7 +101,7 @@ require("sesiones.php");
                   <div class="editorial">
                      <h2 class="h2_escuela_sabatica">Lección 2. El templo de Salomón. </h2>
                      <p class="pfecha">13 de Julio de 2019 de 2019</p>
-                     <a href="https://www.iddios.ga/blog-escuela-sabatica/escuela-adultos/trimestres/3er-trimestre-2019/leccion2/leccion2.php"><button class="boton_entrar">Entrar a lección.</button></a>
+                     <a href="trimestres/3er-trimestre-2019/leccion2/leccion2.php"><button class="boton_entrar">Entrar a lección.</button></a>
                   </div>
                </article>
             </div>
@@ -144,9 +144,9 @@ require("sesiones.php");
             <div class="principal1">
                <article class="escuela">
                   <div class="editorial">
-                     <h2 class="h2_escuela_sabatica">Lección 7 </h2>
-                     <p class="pfecha"> de 2019</p>
-                     <a href="#"><button class="boton_entrar">Entrar a lección.</button></a>
+                     <h2 class="h2_escuela_sabatica">Lección 7. Carencia del celo de Jehová.</h2>
+                     <p class="pfecha">17 de agosto de 2019</p>
+                     <a href="trimestres/3er-trimestre-2019/leccion7/leccion7.php"><button class="boton_entrar">Entrar a lección.</button></a>
                   </div>
                </article>
             </div>
